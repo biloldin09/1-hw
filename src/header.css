@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #282c34;
+    padding: 2rem;
+  }
+  
+  header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+  }
+  
+  header a:hover {
+    text-decoration: underline;
+  }
+  
+  header a.active {
+    font-weight: bold;
+  }
+
+  .bold{
+    width: 2000px;
+    margin-right: 100px;
+  }
+  
